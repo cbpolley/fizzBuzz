@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet"> 
+    
+    <title>Yes, I can fizzBuzz</title>
+    
+</head>   
+<body>
+    
+    <nav id='userInput'>
+        <label for='inputNumber'>What number do you want to Fizz Buzz up to?</label>
+        <input id='inputNumber'>
+        <button id='startButton'>Go</button>
+        <div class='changeFB' id='firstWord'>
+            <p class='fbSelect'>Fizz</p>
+            <ul id='wordMenuFirst' class='wordMenu'>
+                <li class='wordList first'>Fazz</li>
+                <li class='wordList first'>Fezz</li>
+                <li class='wordList first'>Fizz</li>
+                <li class='wordList first'>Fozz</li>
+                <li class='wordList first'>Fuzz</li>
+            </ul>
+        </div>
+        <p>=</p>
+        <input class='multiple' id='firstMultiple'>
+        
+        <div class='changeFB' id='secondWord'>
+            <p class='fbSelect'>Buzz</p>
+            <ul id='wordMenuSecond' class='wordMenu'>
+                <li class='wordList second'>Bazz</li>
+                <li class='wordList second'>Bezz</li>
+                <li class='wordList second'>Bizz</li>
+                <li class='wordList second'>Bozz</li>
+                <li class='wordList second'>Buzz</li>
+            </ul>
+        </div>
+        <p>=</p>
+        <input class='multiple' id='secondMultiple'>
+    </nav>
+    <h1 id='compTxt'></h1>
+    <div id='alignBox'>
+        <ul id='fizzBuzzContainer'></ul>
+    </div>
+    
+    
+    <script src="fizzBuzz.js" ></script>
+</body>
+
+</html>
